@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -148,28 +146,4 @@ ul {
 .grid-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.felx-round .row {
-    display: inline-block;
-}
-
-.round {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #FFCA42;
-}
-
-main h1 {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 42px;
-    font-weight: 400;
-    color: #1B3764;
-}
-
-.bg-white-section {
-    background-color: #fff;
-    padding: 100px 0;
 }
