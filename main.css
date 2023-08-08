@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #1B3764;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icons i {
+    padding: 10px 10px;
+    background-color: #fff;
+    margin: 0 5px;
+}
+
+ul {
+    display: flex;
+    font-family: sans-serif;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+ul li a:hover {
+    color: #FFCA42;
+    transition: .5s ease;
+}
+
+#nav-icon {
+    color: #000;
+    font-size: 17px;
+}
+#nav-icon:hover {
+    color: #FFCA42;
+    transition: .5s ease;
+}
+
+#btn-nav {
+    background-color: #FFCA42;
+    padding: 18px 52px;
+}
+
+#btn-nav:hover {
+    color: #FFCA42;
+    background-color: #fff;
+}
+
+ul {
+    color: #FFCA42;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-page {
+    width: 492px;
+    color: #fff;
+}
+
+.flex-line {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 35px;
+    height: 2px;
+    background-color: #FFCA42;
+    margin-right: 10px;
+}
+
+.flex-line span {
+    font-size: 21px;
+}
+
+.left-page h1 {
+    font-size: 63px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.left-page p {
+    color: #B4C7E7;
+}
+
+.right-page img {
+    width: 460px;
+}
+
+.btn-header {
+    margin: 50px 0;
+}
+
+.header-btn_1 {
+    text-decoration: none;
+    color: #1B3764;
+    padding: 18px 52px;
+    background-color: #FFCA42;
+}
+
+.header-btn_2 {
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 40px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.felx-round .row {
+    display: inline-block;
+}
+
+.round {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FFCA42;
+}
+
+main h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 42px;
+    font-weight: 400;
+    color: #1B3764;
+}
+
+.bg-white-section {
+    background-color: #fff;
+    padding: 100px 0;
+}
