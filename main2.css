@@ -86,7 +86,7 @@
 .mainjon {
     width: 100%;
     height: 800px;
-    background-image: url(img/1\ 1.svg);
+    background-image: url(images2/1\ 1.svg );
     background-repeat: no-repeat;  
     position: relative;  
 }
@@ -168,6 +168,7 @@
 }
 
 .phjon .ph1 {
+    margiright: 1px;
     position: absolute;
     right: 80px;
 }
